@@ -1,0 +1,51 @@
+h1 {
+    color: #a52a2a;
+    border: 10px solid green;
+    padding: 50px;
+    margin: 0px;
+}
+.header{
+    background-color: #d87093;
+    display: flex;
+    justify-content: space-between;
+}
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.info a{
+    margin-left: 50px
+}
+p,h2{
+    text-align: center;
+}
+.socialmedia{
+    display: flex;
+    justify-content: flex-end;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: white;
+}
+.Trex{
+    position: relative;
+}
+.Trex p{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0
+}
+
+.Trex:hover p{
+    opacity: 1;
+}
+.Trex:hover img{
+    transform: scale(1.2);
+}
+
+
